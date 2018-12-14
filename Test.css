@@ -1,0 +1,57 @@
+.Ensemble {
+    width: 1300px;
+    height: 600px;
+    display: flex;
+}
+
+.Categorie-Box {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Double {
+    width: 600px;
+    height: 200px;
+}
+
+.Categorie {
+    width: 300px;
+    height: 200px;
+}
+
+.Carousel {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: contain;
+}
+
+.Green {
+    background-color: #35BC35;
+}
+
+.Jaune {
+    background-color: #ffc107;
+}
+
+.Blue {
+    background-color: #1e8bc4;
+}
+
+.Red {
+    background-color: #f15a49;
+}
+
+.Orange {
+    background-color: #f86925;
+}
+
+#Previous, #Next {
+    width: 30px;
+    height: 30px;
+}

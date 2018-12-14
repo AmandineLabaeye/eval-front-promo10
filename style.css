@@ -1,0 +1,147 @@
+.container-fluid {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Total {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.Colonne1, .Colonne2, .Colonne3, .Colonne4 {
+    display: flex;
+    flex-direction: column;
+}
+
+Div {
+    width: 20vw; /* vw */
+    height: 80vh; /* vh */
+}
+
+img {
+    width: 5vw; /* vw */
+    height: 10vh; /* vh */
+}
+
+#Image {
+    width: 26vw;
+    height: 80vh;
+}
+
+button {
+    color: white;
+    background-color: #35BC35;
+}
+
+#GrosBloc, #Blog, #GrosBloc1 {
+    border: #35BC35 solid;
+    background-color: #35BC35;
+}
+
+#Resume, #iContact {
+    border: white solid;
+}
+
+#Profile {
+    border: #ff9e00 solid;
+    background-color: #ff9e00;
+}
+
+#Experience, #Contact {
+    border: #1e8bc4 solid;
+    background-color: #1e8bc4;
+}
+
+#Education {
+    border: #f15a49 solid;
+    background-color: #f15a49;
+}
+
+#SocialMenu, #Portfolio {
+    border: #f86925 solid;
+    background-color: #f86925;
+}
+
+#Batterie, #Carte, #Livre,
+#Crayon, #Croix, #Enveloppe,
+#Ordinateur {
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+
+#NomSocialMenu {
+    margin-left: 13vh;
+}
+
+#NomExperience, #NomEducation, #NomPortfolio {
+    margin-left: 14vh;
+}
+
+#NomContact {
+    margin-left: 15vh;
+}
+
+#NomProfile {
+    margin-left: 16vh;
+}
+
+#NomBlog {
+    margin-left: 17vh;
+}
+
+#Previous, #Next {
+    width: 4vw; /* vw */
+    height: 7vh; /* vh */
+
+}
+
+#Bouton {
+    margin-left: 50%;
+}
+
+.Profile {
+    background-color: #ffc107;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Experience {
+    background-color: #1e8bc4;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Education {
+    background-color: #f15a49;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Blog {
+    background-color: #35BC35;
+    text-align: center;
+    font-size: 30px;
+}
+
+.SocialMenu, .Portfolio {
+    background-color: #f86925;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Contact {
+    background-color: #1e8bc4;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media only screen and (max-width : 840px){
+
+
+
+}
