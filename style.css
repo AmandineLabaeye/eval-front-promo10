@@ -1,36 +1,67 @@
-.container-fluid {
+.Ensemble {
     color: white;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#Total {
+    width: 1300px;
+    height: 600px;
     display: flex;
-    flex-direction: row;
-    font-size: 18px;
 }
 
-.Colonne1, .Colonne2, .Colonne3, .Colonne4 {
+.Categorie-Box {
+    width: 900px;
+    height: 600px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-Div {
-    width: 20vw; /* vw */
-    height: 80vh; /* vh */
+.Second-Box {
+    width: 900px;
+    height: 600px;
+    font-size: 25px;
+    text-align: center;
 }
 
-img {
-    width: 5vw; /* vw */
-    height: 10vh; /* vh */
+.Double {
+    width: 600px;
+    height: 200px;
 }
 
-#Image {
-    width: 26vw;
-    height: 80vh;
+.Categorie {
+    width: 300px;
+    height: 200px;
+}
+
+.Carousel {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: contain;
+}
+
+.Green, .BlogSecond {
+    background-color: #35BC35;
+}
+
+.Jaune, .ProfileSecond {
+    background-color: #ffc107;
+}
+
+.Blue, .ExperienceSecond, .ContactSecond {
+    background-color: #1e8bc4;
+}
+
+.Red, .EducationSecond {
+    background-color: #f15a49;
+}
+
+.Orange, .SocialMenuSecond, .PortfolioSecond {
+    background-color: #f86925;
+}
+
+#Previous, #Next {
+    width: 30px;
+    height: 30px;
 }
 
 button {
@@ -38,110 +69,59 @@ button {
     background-color: #35BC35;
 }
 
-#GrosBloc, #Blog, #GrosBloc1 {
-    border: #35BC35 solid;
-    background-color: #35BC35;
-}
-
 #Resume, #iContact {
     border: white solid;
 }
 
-#Profile {
-    border: #ff9e00 solid;
-    background-color: #ff9e00;
+img {
+    width: 5vw; /* vw */
+    height: 10vh; /* vh */
+    margin-top: 20%;
+    margin-left: 40%;
 }
 
-#Experience, #Contact {
-    border: #1e8bc4 solid;
-    background-color: #1e8bc4;
+#ExperiencePro {
+    width: 7vw;
+    margin-left: 35%;
 }
 
-#Education {
-    border: #f15a49 solid;
-    background-color: #f15a49;
-}
-
-#SocialMenu, #Portfolio {
-    border: #f86925 solid;
-    background-color: #f86925;
-}
-
-#Batterie, #Carte, #Livre,
-#Crayon, #Croix, #Enveloppe,
-#Ordinateur {
-    margin-top: 5vh;
-    margin-left: 15vh;
+#NomExperience {
+    margin-left: 15%;
 }
 
 #NomSocialMenu {
-    margin-left: 13vh;
-}
-
-#NomExperience, #NomEducation, #NomPortfolio {
-    margin-left: 14vh;
-}
-
-#NomContact {
-    margin-left: 15vh;
-}
-
-#NomProfile {
-    margin-left: 16vh;
+    margin-left: 33%;
 }
 
 #NomBlog {
-    margin-left: 17vh;
+    margin-left: 35%;
 }
 
-#Previous, #Next {
-    width: 4vw; /* vw */
-    height: 7vh; /* vh */
-
+#NomPortfolio {
+    margin-left: 37%;
 }
 
-#Bouton {
-    margin-left: 50%;
+#NomContact, #NomEducation {
+    margin-left: 40%;
 }
 
-.Profile {
-    background-color: #ffc107;
-    text-align: center;
-    font-size: 30px;
+#NomProfile {
+    margin-left: 41%;
 }
 
-.Experience {
-    background-color: #1e8bc4;
-    text-align: center;
-    font-size: 30px;
+#LinKedIn, #Twitter, #GitHub, #CV, #HTMLCSS, #HTMLCSSJS {
+    margin: 0%;
 }
 
-.Education {
-    background-color: #f15a49;
-    text-align: center;
-    font-size: 30px;
+#HTMLCSS, #HTMLCSSJS {
+    width: 10vw; /* vw */
+    height: 15vh; /* vh */
 }
 
-.Blog {
-    background-color: #35BC35;
-    text-align: center;
-    font-size: 30px;
+.Underline {
+    text-decoration: underline;
 }
 
-.SocialMenu, .Portfolio {
-    background-color: #f86925;
-    text-align: center;
-    font-size: 30px;
-}
-
-.Contact {
-    background-color: #1e8bc4;
-    text-align: center;
-    font-size: 30px;
-}
-
-@media only screen and (max-width : 840px){
-
-
+@media only screen and (max-width: 840px) {
 
 }

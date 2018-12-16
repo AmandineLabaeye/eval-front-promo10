@@ -45,15 +45,14 @@ document.getElementById("Previous").addEventListener("click", function () {
     document.getElementById("Carousel").style.backgroundImage =  "url("+Image[i]+")";
 
 });
-/*
-$(".Profile, .Experience, .Education, .Blog, " +
-    ".SocialMenu, .Contact," +
-    " .Portfolio").hide();
-*/
 
-$("#GrosBloc, #GrosBloc1").hover(function () {
+$(".ProfileSecond, .ExperienceSecond, .EducationSecond, " +
+    ".BlogSecond, .SocialMenuSecond, .ContactSecond, " +
+    ".PortfolioSecond").hide();
 
-    $("#GrosBloc, #GrosBloc1").css({
+$(".Double").hover(function () {
+
+    $(".Double").css({
 
         backgroundColor: "#248624",
         border: "#248624 solid"
@@ -62,7 +61,7 @@ $("#GrosBloc, #GrosBloc1").hover(function () {
 
 });
 
-$("#Blog, button").hover(function () {
+$(".Blog, button").hover(function () {
 
     $(this).css({
 
@@ -73,17 +72,17 @@ $("#Blog, button").hover(function () {
 
 });
 
-$("#Blog").click(function () {
+$(".Blog").click(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Blog").slideDown();
+        $(".BlogSecond").slideDown();
 
     });
 
 });
 
-$("#Profile").hover(function () {
+$(".Profile").hover(function () {
 
     $(this).css({
 
@@ -96,15 +95,17 @@ $("#Profile").hover(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Profile").slideDown();
+        $(".ProfileSecond").slideDown();
 
     });
 
 });
 
-$(".Profile, .Experience," +
-    " .Education, .Blog, .SocialMenu," +
-    " .Contact, .Portfolio").click(function () {
+$(".ProfileSecond, .ExperienceSecond," +
+    " .EducationSecond, .BlogSecond, .SocialMenuSecond," +
+    " .ContactSecond, .PortfolioSecond").click(
+
+    function () {
 
     $(this).slideUp(function () {
 
@@ -114,27 +115,27 @@ $(".Profile, .Experience," +
 
 });
 
-$("#Experience").click(function () {
+$(".Experience").click(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Experience").slideDown();
+        $(".ExperienceSecond").slideDown();
 
     });
 
 });
 
-$("#Contact").click(function () {
+$(".Contact").click(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Contact").slideDown();
+        $(".ContactSecond").slideDown();
 
     });
 
 });
 
-$("#Experience, #Contact").hover(function () {
+$(".Experience, .Contact").hover(function () {
 
     $(this).css({
 
@@ -145,7 +146,7 @@ $("#Experience, #Contact").hover(function () {
 
 });
 
-$("#Education").hover(function () {
+$(".Education").hover(function () {
 
     $(this).css({
 
@@ -158,13 +159,13 @@ $("#Education").hover(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Education").slideDown();
+        $(".EducationSecond").slideDown();
 
     });
 
 });
 
-$("#SocialMenu, #Portfolio").hover(function () {
+$(".SocialMenu, .Portfolio").hover(function () {
 
     $(this).css({
 
@@ -175,21 +176,21 @@ $("#SocialMenu, #Portfolio").hover(function () {
 
 });
 
-$("#SocialMenu").click(function () {
+$(".SocialMenu").click(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".SocialMenu").slideDown();
+        $(".SocialMenuSecond").slideDown();
 
     });
 
 });
 
-$("#Portfolio").click(function () {
+$(".Portfolio").click(function () {
 
     $(".Div").fadeOut(function () {
 
-        $(".Portfolio").slideDown();
+        $(".PortfolioSecond").slideDown();
 
     });
 
