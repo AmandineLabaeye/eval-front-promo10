@@ -122,6 +122,26 @@ img {
     text-decoration: underline;
 }
 
+#NomPersonne {
+    margin-left: 35%;
+}
+
+#Description {
+    margin-left: 20%;
+}
+
+#Renseignement {
+    margin-left: 15%;
+}
+
+#Resume {
+    margin-left: 25%;
+}
+
+#iContact {
+    margin-left: 10%;
+}
+
 @media only screen and (max-width: 840px) {
 
 }
